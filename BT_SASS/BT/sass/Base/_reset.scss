@@ -1,0 +1,29 @@
+@font-face{
+    src: url(./../../fonts/Daimler_CS.ttf);
+    font-family: DaimlerCS;
+}
+@font-face{
+    src: url(./../../fonts/Daimler_CS.ttf);
+    font-family: DaimlerCAC;
+}
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    color: $color-white-0 !important;   
+}
+body{
+    background-color: $color-black-0 ;
+}
+
+a:hover, a.nav-link:hover, i:active, li:hover{
+    color: $color-blue-0 !important;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+//a:hover
+
+//p

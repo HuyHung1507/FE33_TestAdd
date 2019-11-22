@@ -1,0 +1,227 @@
+@font-face {
+  src: url(./../../fonts/Daimler_CS.ttf);
+  font-family: DaimlerCS; }
+@font-face {
+  src: url(./../../fonts/Daimler_CS.ttf);
+  font-family: DaimlerCAC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\000039}}
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  color: #fff !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000315}}
+body {
+  background-color: #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000319}}
+a:hover, a.nav-link:hover, i:active, li:hover {
+  color: #00A2E0 !important;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000323}}
+li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Helpers\/_extend\.scss}line{font-family:\000031}}
+.background_cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\000031}}
+.slider {
+  height: 650px !important;
+  width: auto;
+  position: relative;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\000036}}
+  .slider .item_1 {
+    background-image: url(./../img/Panel_1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000312}}
+  .slider .item_2 {
+    background-image: url(./../img/Panel_2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000318}}
+  .slider .item_3 {
+    background-image: url(./../img/Panel_3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000324}}
+  .slider .item_4 {
+    background-image: url(./../img/Panel_4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000330}}
+  .slider .item_5 {
+    background-image: url(./../img/Panel_5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000336}}
+  .slider .item_6 {
+    background-image: url(./../img/Panel_6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000342}}
+  .slider .item {
+    height: 650px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000345}}
+    .slider .item .slider__content .slider__detail {
+      position: absolute;
+      top: 20%;
+      left: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000358}}
+  .slider .slider__control .owl-controls .owl-nav {
+    font-size: 40px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000362}}
+    .slider .slider__control .owl-controls .owl-nav i:hover {
+      color: #DDDDDD !important;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000366}}
+    .slider .slider__control .owl-controls .owl-nav .preBtn {
+      position: absolute;
+      top: 50%;
+      left: 2%;
+      transform: translate(-50%);
+      z-index: 9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000373}}
+    .slider .slider__control .owl-controls .owl-nav .nextBtn {
+      position: absolute;
+      top: 50%;
+      right: 2%;
+      transform: translate(-50%);
+      z-index: 9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\000034}}
+.brandhub .tab-content__1 .row .brandhub__item {
+  border: 1px #000000 solid;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  padding: 0px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000310}}
+.brandhub .tab-content__1 .row .tab__item {
+  height: 570px;
+  width: 100%;
+  overflow: hidden !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000315}}
+.brandhub .tab-content__1 .row .row__item {
+  height: 285px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000319}}
+.brandhub .tab-content__1 .row .item_1 {
+  background-image: url(./../img/brand-hub_1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000326}}
+.brandhub .tab-content__1 .row .item_2 {
+  background-image: url(./../img/brand-hub_2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000332}}
+.brandhub .tab-content__1 .row .item_3 {
+  background-image: url(./../img/brand-hub_3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000339}}
+.brandhub .tab-content__1 .row .item_4 {
+  background-image: url(./../img/brand-hub_4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000345}}
+.brandhub .tab-content__1 .row .item_5 {
+  background-image: url(./../img/brand-hub_5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000351}}
+.brandhub .tab-content__1 .row .item_6 {
+  background-image: url(./../img/brand-hub_6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000357}}
+.brandhub .tab-content__1 .row .item_7 {
+  background-image: url(./../img/brand-hub_7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000363}}
+.brandhub .tab-content__1 .row .item_8 {
+  background-image: url(./../img/brand-hub_8.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000369}}
+.brandhub .tab-content__1 .row .item_9 {
+  background-image: url(./../img/brand-hub_9.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000375}}
+.brandhub .tab-content__1 .row .item_10 {
+  background-image: url(./../img/brand-hub_10.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000381}}
+.brandhub .tab-content__1 .row .item_11 {
+  background-image: url(./../img/brand-hub_11.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000387}}
+.brandhub .tab-content__1 .row .item_12 {
+  background-image: url(./../img/brand-hub_12.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000393}}
+.brandhub .tab-content__1 .row .item_13 {
+  background-image: url(./../img/brand-hub_13.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000399}}
+.brandhub .tab-content__1 .row .item_14 {
+  background-image: url(./../img/brand-hub_14.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Component\/_button\.scss}line{font-family:\000032}}
+.btn--white {
+  font-weight: normal;
+  font-size: 15px;
+  color: #262626;
+  background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Helpers\/_mixin\.scss}line{font-family:\0000311}}
+  .btn--white:hover {
+    color: #000000;
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Component\/_button\.scss}line{font-family:\000036}}
+.btn--red {
+  font-weight: normal;
+  font-size: 15px;
+  color: #fff;
+  background-color: #ec5252; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Helpers\/_mixin\.scss}line{font-family:\0000311}}
+  .btn--red:hover {
+    color: #fff;
+    background-color: #992337; }
+
+/*# sourceMappingURL=main.css.map */
